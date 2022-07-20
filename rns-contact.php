@@ -67,9 +67,6 @@ h2, h5 { color: var(--primary);}
 <div class="col-md-6">
 <div class="card">
  <div class="card-body">
-    <!-- <form action="https://lms.mdsmedia.co.in/api/insert" name="myForm" method="POST"> -->
-    <!-- <form action="https://mdsmedia.co.in/apis/form-submit.php" name="myForm" method="POST"> -->
-    <!-- <form action="apis/form-submit.php" name="myForm" method="POST"> -->
     <form method="POST">
      <div class="form-group">
          <label for="textName">Name:</label>
@@ -79,13 +76,6 @@ h2, h5 { color: var(--primary);}
          <label for="telMobile">Mobile No:</label>
          <input type="tel" name="mobile" id="mobile" class="form-control" pattern="[6789][0-9]{9}" placeholder="Enter your mobile no" required onkeypress="return event.charCode &gt;= 48 &amp;&amp; event.charCode &lt;= 57">
      </div>
-        
-<!-- <input type="hidden" name="Res_City" id="res_city" value=""> -->
-<input type="hidden" name="utm_source" id="utm_source" value="">
-<input type="hidden" name="utm_medium" id="utm_medium" value="">
-<input type="hidden" name="campaign" id="campaign" value=""> 
-<input type="hidden" name="affiliate" id="affiliate" value=""> 
-<input type="hidden" name="utm_content" id="utm_content" value=""> 
 
 
 <input type="hidden" id="rdir" name="rdir" value="">
@@ -126,37 +116,6 @@ Copyrights &copy; 2020. All Rights Reserved.
  
  
  <script type="text/javascript">  
-//     var url_string=location.href;
-    
-//     var url = new URL(url_string);
-//     var campaign = url.searchParams.get("campaign");
-//     var utm_source = url.searchParams.get("utm_source");
-//     var utm_medium = url.searchParams.get("utm_medium");
-//     var affiliate = url.searchParams.get("affiliate");
-//  var utm_content = url.searchParams.get("utm_content");
- 
-//  if(campaign)
-//  {
-//  document.getElementById("campaign").value = campaign;
-//  }
-//  if(utm_source)
-//  {
-//  document.getElementById("utm_source").value = utm_source;
-//  }
-//  if(utm_medium)
-//  {
-//  document.getElementById("utm_medium").value = utm_medium;
-//  }
-//  if(affiliate)
-//  {
-//  document.getElementById("affiliate").value = affiliate;
-//  }
-//  if(utm_content)
-//  {
-//  document.getElementById("utm_content").value = utm_content;
-//  }
- 
-// document.getElementById("rdir").value = window.location.protocol + "//" + window.location.host + "" + window.location.pathname+ "thank-you.html?affiliate="+affiliate; 
  </script>
  
  
